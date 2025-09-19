@@ -239,7 +239,9 @@ class SmartNotesApp:
             
             with col2:
                 st.write(f"**Subject:** {metadata.get('subject', 'Unknown')}")
-                st.write(f"**Creator:** {metadata.get('creator', 'Unknown')}")
+                creator = metadata.get('creator', 'Unknown')
+                st.markdown(f"**Creator:** {str(creator)}")
+
                 st.write(f"**Creation Date:** {metadata.get('creation_date', 'Unknown')}")
         
         # Export functionality

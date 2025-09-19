@@ -27,7 +27,9 @@ venv/
 env/
 ENV/
 .venv/
+.venv311/
 .env
+venv311/
 
 # IDE
 .vscode/
@@ -64,7 +66,6 @@ logs/
 # Data files
 *.pdf
 *.docx
-*.txt
 data/
 uploads/
 downloads/
